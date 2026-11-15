@@ -58,3 +58,11 @@ El código (`solution.py`) está diseñado para ser **100% reproducible**. Fijan
 ├── solution.py             # Script principal end-to-end (genera el submission y el zip)
 ├── tutorial.zip            # Código comprimido para entrega en Omnicampus
 └── README.md
+
+Próximos Pasos (Roadmap)
+Aunque el modelo actual es sólido, la mejora continua es clave. Mis siguientes pasos en este proyecto son:
+
+□ Implementar Target Encoding con validación cruzada para ORGANIZATION_TYPE y OCCUPATION_TYPE.
+□ Añadir interacciones cruzadas entre EXT_SOURCE y variables demográficas (ej. AGE_YEARS).
+□ Optimizar hiperparámetros con Optuna (actualmente RUN_OPTUNA = False para agilizar las pruebas).
+□ Implementar Stacking (meta-learner) en lugar de solo blending.
